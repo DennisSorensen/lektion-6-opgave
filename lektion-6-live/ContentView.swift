@@ -9,14 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //Model til slupperter
+    let banditter = Sluppert.slupperter
+    
+    
     var body: some View {
-        NavigationView {
+        VStack {
+            //Hvis datamodellen overholder identifiable kan man slette keypath
+//            ForEach(banditter) { sluppert in
+//                HStack {
+//                    Text(sluppert.navn)
+//                    Spacer()
+//                    SluppertView()
+//                }.padding()
+//
+//            }
             
-            NavigationLink(destination: GreatView()) {
-                DonaldView()
-            }.buttonStyle(PlainButtonStyle())
-            .navigationBarTitle("Vote America")
-            
+            ForEach (0..<50) { tal in
+                Text("\(tal)")
+            }.font(.title)
         }
     }
 }

@@ -12,7 +12,7 @@ import SwiftUI
 // Identifiable er en protokol, og den kræver at en instans har en variabel med navnet id
 // UUID() er en Universal Unik Identifier - den er altid unik (i stil med GUID hvis i kender til det.
 struct Sluppert: Identifiable {
-    var id = UUID()
+    var id = UUID() //Er en id som altid er unik
     var navn: String
     var profilFoto: Image
     var partiFarve: Color
