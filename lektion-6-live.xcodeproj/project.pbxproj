@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9528F88624057D0700065990 /* ForEach_Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528F88524057D0700065990 /* ForEach_Backup.swift */; };
+		9528F888240580EC00065990 /* ListView_Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528F887240580EC00065990 /* ListView_Backup.swift */; };
+		9528F88A2405A0C600065990 /* ScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9528F8892405A0C600065990 /* ScrollerView.swift */; };
 		AF6624EA23F97FE200AE4603 /* Sluppert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6624E923F97FE200AE4603 /* Sluppert.swift */; };
 		AF6624EC23F9828600AE4603 /* SluppertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6624EB23F9828600AE4603 /* SluppertView.swift */; };
 		AF6624EE23F9830400AE4603 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6624ED23F9830400AE4603 /* Default-568h@2x.png */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9528F88524057D0700065990 /* ForEach_Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_Backup.swift; sourceTree = "<group>"; };
+		9528F887240580EC00065990 /* ListView_Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView_Backup.swift; sourceTree = "<group>"; };
+		9528F8892405A0C600065990 /* ScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerView.swift; sourceTree = "<group>"; };
 		AF6624E923F97FE200AE4603 /* Sluppert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sluppert.swift; sourceTree = "<group>"; };
 		AF6624EB23F9828600AE4603 /* SluppertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SluppertView.swift; sourceTree = "<group>"; };
 		AF6624ED23F9830400AE4603 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9528F88424057CDD00065990 /* BackupViews */ = {
+			isa = PBXGroup;
+			children = (
+				9528F88524057D0700065990 /* ForEach_Backup.swift */,
+				9528F887240580EC00065990 /* ListView_Backup.swift */,
+			);
+			path = BackupViews;
+			sourceTree = "<group>";
+		};
 		AF6624E823F97F6400AE4603 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +94,7 @@
 		AFAE9E9B23F3390C004952BA /* lektion-6-live */ = {
 			isa = PBXGroup;
 			children = (
+				9528F88424057CDD00065990 /* BackupViews */,
 				AF6624E823F97F6400AE4603 /* Model */,
 				AFAE9EB023F342CD004952BA /* Views */,
 				AFAE9E9C23F3390C004952BA /* AppDelegate.swift */,
@@ -108,6 +124,7 @@
 				AFAE9EB523F346E3004952BA /* Buttons.swift */,
 				AFAE9EB723F34941004952BA /* GreatView.swift */,
 				AF6624EB23F9828600AE4603 /* SluppertView.swift */,
+				9528F8892405A0C600065990 /* ScrollerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,8 +203,11 @@
 			files = (
 				AF6624EA23F97FE200AE4603 /* Sluppert.swift in Sources */,
 				AF6624EC23F9828600AE4603 /* SluppertView.swift in Sources */,
+				9528F88A2405A0C600065990 /* ScrollerView.swift in Sources */,
+				9528F88624057D0700065990 /* ForEach_Backup.swift in Sources */,
 				AFAE9EB223F342E4004952BA /* DonaldView.swift in Sources */,
 				AFAE9E9D23F3390C004952BA /* AppDelegate.swift in Sources */,
+				9528F888240580EC00065990 /* ListView_Backup.swift in Sources */,
 				AFAE9EB423F34522004952BA /* Shapes.swift in Sources */,
 				AFAE9EB823F34941004952BA /* GreatView.swift in Sources */,
 				AFAE9EB623F346E3004952BA /* Buttons.swift in Sources */,
